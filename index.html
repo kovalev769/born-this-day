@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#142332"><meta name="description" content="Born This Day — ежедневный календарь человеческих историй.">
+<title>Born This Day — истории людей</title>
+<link rel="stylesheet" href="style.css"><script defer src="app.js"></script>
+</head>
+<body>
+<header><a class="brand" href="./">Born This Day<span id="tagline">Каждый день — человеческая история</span></a><nav aria-label="Language"><button data-lang="ru" lang="ru">Русский</button><button data-lang="en" lang="en">English</button></nav></header>
+<main id="main"><div class="intro"><p id="edition" class="eyebrow">Пилотная коллекция · две истории</p><h1 id="heading">Истории, которые стоит узнать</h1><p id="principle">Не каждый выдающийся человек знаменит. И не каждый знаменитый человек выдающийся</p></div>
+<section class="calendar" aria-label="Выбор даты"><label for="day" id="day-label">Дата</label><input id="day" type="date"><button id="today" class="outline">Сегодня</button><div id="pilot-links"></div></section>
+<div id="status" role="status" aria-live="polite">Загружаем истории…</div>
+<article id="story" hidden><div class="story-head"><div><p id="section" class="eyebrow"></p><h2 id="name"></h2><p id="life" class="muted"></p><p id="category"></p></div><img id="portrait" hidden alt=""></div><div id="bio"></div><aside><h3 id="source-title">Источники</h3><ul id="sources"></ul></aside></article>
+<section id="others" hidden><h3 id="others-title"></h3><div id="other-links"></div></section>
+</main><footer><span>Born This Day</span><p id="footer-text">Знания — для всех. Персонализация — по желанию.</p></footer>
+</body></html>
