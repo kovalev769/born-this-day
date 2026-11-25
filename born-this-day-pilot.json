@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "title": "Born This Day",
+  "description": {
+    "ru": "Восстановленная тестовая база: две даты, биографии на русском и английском.",
+    "en": "Reconstructed pilot dataset: two dates with Russian and English biographies."
+  },
+  "date_format": "MM-DD",
+  "dates": {
+    "03-14": [
+      {
+        "id": "albert-einstein",
+        "birth_date": "1879-03-14",
+        "name": {
+          "ru": "Альберт Эйнштейн",
+          "en": "Albert Einstein"
+        },
+        "bio": {
+          "ru": "Физик-теоретик, создатель теории относительности. Удостоен Нобелевской премии по физике за 1921 год за вклад в теоретическую физику, особенно за открытие закона фотоэлектрического эффекта.",
+          "en": "Theoretical physicist who developed the theory of relativity. Awarded the 1921 Nobel Prize in Physics for contributions to theoretical physics, especially the discovery of the law of the photoelectric effect."
+        },
+        "sources": [
+          "https://library.ethz.ch/en/collections-and-archives/short-portraits/einstein-albert-1879-1955.html",
+          "https://www.uzh.ch/en/researchinnovation/excellence/nobelprize/einstein.html"
+        ]
+      }
+    ],
+    "11-07": [
+      {
+        "id": "marie-curie",
+        "birth_date": "1867-11-07",
+        "name": {
+          "ru": "Мария Склодовская-Кюри",
+          "en": "Marie Skłodowska Curie"
+        },
+        "bio": {
+          "ru": "Физик и химик, исследовательница радиоактивности. Вместе с Пьером Кюри открыла полоний и радий. Лауреат Нобелевских премий по физике 1903 года и по химии 1911 года.",
+          "en": "Physicist and chemist who studied radioactivity. Together with Pierre Curie, she discovered polonium and radium. Awarded the Nobel Prize in Physics in 1903 and the Nobel Prize in Chemistry in 1911."
+        },
+        "sources": [
+          "https://www.nist.gov/pml/marie-curie-and-nbs-radium-standards/marie-curie-and-nbs-radium-standards-biographies/biography",
+          "https://www.nps.gov/people/manhattan-project-pioneers-marie-curie.htm"
+        ]
+      }
+    ]
+  }
+}
