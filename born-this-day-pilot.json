@@ -1,47 +1,137 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "title": "Born This Day",
-  "description": {
-    "ru": "Восстановленная тестовая база: две даты, биографии на русском и английском.",
-    "en": "Reconstructed pilot dataset: two dates with Russian and English biographies."
-  },
+  "dataset_status": "pilot_portraits_pending",
+  "languages": [
+    "ru",
+    "en"
+  ],
   "date_format": "MM-DD",
+  "calendar": "gregorian",
+  "principle": "Не каждый выдающийся человек знаменит. И не каждый знаменитый человек выдающийся",
+  "sections": {
+    "main": {
+      "ru": "Истории дня",
+      "en": "Stories of the day"
+    },
+    "humanity": {
+      "ru": "Человек с большой буквы",
+      "en": "A Person of Great Humanity"
+    }
+  },
   "dates": {
-    "03-14": [
+    "11-18": [
       {
-        "id": "albert-einstein",
-        "birth_date": "1879-03-14",
+        "id": "epistinia-stepanova",
         "name": {
-          "ru": "Альберт Эйнштейн",
-          "en": "Albert Einstein"
+          "ru": "Епистиния Фёдоровна Степанова",
+          "en": "Epistinia Fyodorovna Stepanova"
         },
+        "birth_date": "1882-11-18",
+        "death_date": "1969-02-07",
+        "is_alive": false,
+        "category": {
+          "ru": "Материнская стойкость и память",
+          "en": "Maternal resilience and remembrance"
+        },
+        "sections": [
+          "humanity"
+        ],
         "bio": {
-          "ru": "Физик-теоретик, создатель теории относительности. Удостоен Нобелевской премии по физике за 1921 год за вклад в теоретическую физику, особенно за открытие закона фотоэлектрического эффекта.",
-          "en": "Theoretical physicist who developed the theory of relativity. Awarded the 1921 Nobel Prize in Physics for contributions to theoretical physics, especially the discovery of the law of the photoelectric effect."
+          "ru": [
+            "Епистиния Степанова родилась 18 ноября 1882 года. История её семьи связана с Кубанью и потерей девяти сыновей: они погибли в разные годы на войнах или умерли от последствий фронтовых ран. За этой цифрой — девять отдельных судеб и жизнь матери, пережившей своих детей.",
+            "Степанова умерла 7 февраля 1969 года. В Тимашевском музее семьи Степановых сохраняют память о семье. В нашей рубрике «Человек с большой буквы» её история — повод задуматься о материнской любви, стойкости и человеческой цене войны."
+          ],
+          "en": [
+            "Epistinia Stepanova was born on November 18, 1882. Her family’s story is connected with the Kuban region and the loss of nine sons. They died in different wars or from the consequences of wounds sustained at the front. Behind that number are nine individual lives and a mother who outlived her children.",
+            "Stepanova died on February 7, 1969. The Stepanov Family Museum in Timashevsk preserves the family’s memory. In our “A Person of Great Humanity” section, her story invites reflection on maternal love, resilience and the human cost of war."
+          ]
+        },
+        "portrait": {
+          "url": null,
+          "source_url": null,
+          "author": null,
+          "license": null,
+          "license_url": null,
+          "rights_status": "pending",
+          "treatment": "black_and_white"
         },
         "sources": [
-          "https://library.ethz.ch/en/collections-and-archives/short-portraits/einstein-albert-1879-1955.html",
-          "https://www.uzh.ch/en/researchinnovation/excellence/nobelprize/einstein.html"
-        ]
+          {
+            "title": "Музей Фелицына: День в истории Кубани — 18 ноября",
+            "url": "https://felicina.ru/news/den-v-istorii-kubani-18-noyabrya/"
+          },
+          {
+            "title": "Тимашевский музей семьи Степановых: День памяти Е. Ф. Степановой",
+            "url": "https://xn----8sbgjbjpvpkiwni6b4f.xn--p1ai/news/den-pamyati-soldatskoj-materi-e-f-stepanovoj/"
+          }
+        ],
+        "editorial_notes": {
+          "ru": "Для даты рождения использованы сведения профильного музея. В части справочных ресурсов встречается иной год рождения; выбран 1882 год по музейным публикациям.",
+          "en": "The birth date follows specialist museum publications. Some reference resources give a different birth year; this record uses the museums’ 1882 date."
+        }
       }
     ],
-    "11-07": [
+    "11-23": [
       {
-        "id": "marie-curie",
-        "birth_date": "1867-11-07",
+        "id": "vladislav-volkov",
         "name": {
-          "ru": "Мария Склодовская-Кюри",
-          "en": "Marie Skłodowska Curie"
+          "ru": "Владислав Николаевич Волков",
+          "en": "Vladislav Nikolayevich Volkov"
         },
+        "birth_date": "1935-11-23",
+        "death_date": "1971-06-30",
+        "is_alive": false,
+        "category": {
+          "ru": "Космонавтика",
+          "en": "Space exploration"
+        },
+        "sections": [
+          "main"
+        ],
         "bio": {
-          "ru": "Физик и химик, исследовательница радиоактивности. Вместе с Пьером Кюри открыла полоний и радий. Лауреат Нобелевских премий по физике 1903 года и по химии 1911 года.",
-          "en": "Physicist and chemist who studied radioactivity. Together with Pierre Curie, she discovered polonium and radium. Awarded the Nobel Prize in Physics in 1903 and the Nobel Prize in Chemistry in 1911."
+          "ru": [
+            "Владислав Волков родился 23 ноября 1935 года в Москве. В 1959 году окончил Московский авиационный институт. До полётов работал над космическими кораблями в ОКБ-1: его путь на орбиту начался с инженерной работы.",
+            "Волков дважды летал в космос — на «Союзе-7» в 1969 году и на «Союзе-11» в 1971-м. Во втором полёте он вошёл в экипаж первой орбитальной станции «Салют». 30 июня 1971 года при возвращении на Землю разгерметизировался спускаемый аппарат. Волков, Георгий Добровольский и Виктор Пацаев погибли. За Волковым осталась история инженера, ставшего одним из первых жителей орбитальной станции."
+          ],
+          "en": [
+            "Vladislav Volkov was born in Moscow on November 23, 1935. He graduated from the Moscow Aviation Institute in 1959. Before flying in space, he worked on spacecraft at OKB-1: his route to orbit began with engineering.",
+            "Volkov flew twice, aboard Soyuz 7 in 1969 and Soyuz 11 in 1971. On his second mission, he served on the crew of Salyut, the first orbital station. On June 30, 1971, the descent module depressurized during the return to Earth. Volkov, Georgy Dobrovolsky and Viktor Patsayev died. His story remains that of an engineer who became one of an orbital station’s first residents."
+          ]
+        },
+        "portrait": {
+          "url": null,
+          "source_url": null,
+          "author": null,
+          "license": null,
+          "license_url": null,
+          "rights_status": "pending",
+          "treatment": "black_and_white"
         },
         "sources": [
-          "https://www.nist.gov/pml/marie-curie-and-nbs-radium-standards/marie-curie-and-nbs-radium-standards-biographies/biography",
-          "https://www.nps.gov/people/manhattan-project-pioneers-marie-curie.htm"
+          {
+            "title": "Центр подготовки космонавтов имени Ю. А. Гагарина: Владислав Волков",
+            "url": "https://www.gctc.ru/main.php?id=1063"
+          },
+          {
+            "title": "Московский авиационный институт: Владислав Волков",
+            "url": "https://history.mai.ru/personalities/item.php?id=113305"
+          }
         ]
       }
     ]
+  },
+  "featured_by_date": {
+    "11-18": "epistinia-stepanova",
+    "11-23": "vladislav-volkov"
+  },
+  "pilot_note": {
+    "ru": "Два дня для проверки работы. Выбор Степановой главной персоной 18 ноября относится к тесту рубрики. Производственный календарь главных героев ещё не составлен.",
+    "en": "Two dates for testing. Featuring Stepanova on November 18 tests the editorial section. The production calendar of featured people is not yet prepared."
+  },
+  "portrait_policy": {
+    "living": "color",
+    "deceased": "black_and_white",
+    "require_verified_rights": true
   }
 }
